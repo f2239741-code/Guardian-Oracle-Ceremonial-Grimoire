@@ -1,0 +1,6 @@
+{
+  "name": "Guardian Oracle: Ceremonial Grimoire",
+  "description": "An esoteric ritual companion featuring digital sigil synthesis, lunar timing, encrypted manifestation journal, tarot divination, and arcane lore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
