@@ -1,8 +1,68 @@
+# Dependencies
 node_modules/
-build/
+jspm_packages/
+
+# Production build & distribution
 dist/
-coverage/
-.DS_Store
-*.log
+dist-ssr/
+build/
+out/
+server.js
+
+# Environment variables & secrets (CRITICAL: Never commit .env files with secrets)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env*
 !.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage & diagnostics
+coverage/
+*.lcov
+.nyc_output/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Cache directories
+.cache/
+.parcel-cache/
+.vite/
+.vite-temp/
+*.tsbuildinfo
+.eslintcache
+.npm
+
+# System & OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swp
+
+# Studio internal assets
+assets/.aistudio/
+
